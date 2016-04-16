@@ -21,15 +21,12 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="OpentokClientVersion" value="v2"/>
+    
     <platform name="ios" />
     <platform name="android" />
         <access origin="*"/> <!-- allow all pages, use for development -->
     <allow-navigation href="*" />
-    
     <plugin name="org.crosswalk.engine" spec="1.3.0" source="pgb" />
-    <plugin name="cordova-plugin-iosrtc"  source="npm" />
-    <plugin name="cordova-plugin-opentokjs"  source="npm" />
     <plugin name="cordova-plugin-splashscreen" spec="2.1.0" source="pgb" /> 
     <plugin name="cordova-plugin-inappbrowser" spec="1.0.1" source="pgb" /> 
     <plugin name="cordova-plugin-file" spec="3.0.0" source="pgb" /> 
